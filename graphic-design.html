@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Graphic design projects by Dadirai Pise, including a Zimbabwe heritage stamp and personal brand sticker.">
+  <title>Graphic Design | Dadirai Pise</title>
+  <style>
+    :root { --ink:#173437; --teal:#1f7776; --cream:#fbf8f1; --gold:#d8a94b; --muted:#5e7071; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:Georgia,"Times New Roman",serif; color:var(--ink); background:var(--cream); line-height:1.65; }
+    .hero { background:var(--ink); color:white; padding:32px max(7vw,28px) 60px; }
+    nav { display:flex; justify-content:space-between; align-items:center; font-family:Arial,sans-serif; font-size:.82rem; letter-spacing:.12em; text-transform:uppercase; }
+    nav .mark { color:#f5d995; font-weight:bold; text-decoration:none; } nav a { color:white; text-decoration:none; margin-left:22px; }
+    .intro { max-width:1000px; margin:72px auto 0; }
+    .eyebrow { margin:0 0 16px; color:#f5d995; font-family:Arial,sans-serif; font-size:.78rem; font-weight:bold; letter-spacing:.15em; text-transform:uppercase; }
+    h1 { font-size:clamp(3rem,8vw,5.5rem); font-weight:normal; line-height:1; margin:0; letter-spacing:-.05em; }
+    .subtitle { max-width:690px; font-size:1.2rem; margin:20px 0 0; color:#e2eeee; }
+    main { max-width:1160px; margin:auto; padding:72px 28px 90px; }
+    section { margin:0 0 84px; }
+    .project { display:grid; grid-template-columns:minmax(260px,.9fr) 1.1fr; align-items:center; gap:56px; }
+    .featured-art { margin:0; padding:24px; background:#e2eeee; border-left:5px solid var(--gold); }
+    .featured-art img { display:block; width:100%; max-width:460px; height:auto; margin:auto; }
+    figcaption { color:var(--muted); font-family:Arial,sans-serif; font-size:.88rem; margin-top:14px; }
+    h2 { color:var(--teal); font-family:Arial,sans-serif; font-size:.8rem; letter-spacing:.16em; text-transform:uppercase; margin:0 0 14px; }
+    h3 { margin:0 0 14px; font-size:2rem; font-weight:normal; }
+    .copy { color:#314b4d; font-size:1.08rem; }
+    .copy p { margin:0 0 16px; }
+    .copy strong { color:var(--ink); }
+    .download { display:inline-block; margin-top:8px; padding:12px 18px; border-radius:3px; background:var(--ink); color:#fff; font-family:Arial,sans-serif; text-decoration-color:var(--gold); text-decoration-thickness:2px; text-underline-offset:4px; }
+    .sticker-project { display:grid; grid-template-columns:minmax(220px,.7fr) 1.3fr; align-items:center; gap:44px; padding:28px; background:#e2eeee; }
+    .sticker-project img { display:block; width:min(100%,320px); height:auto; margin:auto; }
+    .designer { display:flex; align-items:center; gap:28px; padding:30px 0 10px; border-top:1px solid #d8ddd6; }
+    .designer img { display:block; width:144px; height:144px; object-fit:cover; border:5px solid #fff; border-radius:50%; box-shadow:0 0 0 2px var(--gold); }
+    .designer h2 { margin-bottom:8px; }
+    .designer p { max-width:620px; margin:0; color:#314b4d; font-size:1.05rem; }
+    footer { border-top:1px solid #d8ddd6; padding:28px; text-align:center; font-family:Arial,sans-serif; color:var(--muted); font-size:.8rem; }
+    @media (max-width:700px) { nav .links { display:none; } .intro { margin-top:58px; } main { padding-top:48px; } .project,.sticker-project { grid-template-columns:1fr; gap:30px; } .designer { align-items:flex-start; gap:18px; } .designer img { width:104px; height:104px; flex:none; } .featured-art { max-width:520px; margin:auto; } }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <nav><a class="mark" href="index.html">DP / Portfolio</a><span class="links"><a href="index.html#about">About</a><a href="index.html#focus">Focus</a><a href="graphic-design.html" aria-current="page">Graphic Design</a><a href="index.html#contact">Contact</a></span></nav>
+    <div class="intro">
+      <p class="eyebrow">Selected creative work</p>
+      <h1>Graphic Design</h1>
+      <p class="subtitle">Design projects that bring together personal expression, clear visual storytelling, and thoughtful use of color.</p>
+    </div>
+  </header>
+  <main>
+    <section class="project" aria-labelledby="stamp-title">
+      <figure class="featured-art">
+        <img src="images/heritage-stamp/heritage-stamp.png" alt="Zimbabwe heritage postage stamp with a green perforated border, a portrait, Zimbabwe lettering, a one dollar value, and a McLloyd name label" width="460" height="550">
+        <figcaption>Heritage stamp design · Final artwork</figcaption>
+      </figure>
+      <div class="copy">
+        <h2>Featured artifact</h2>
+        <h3 id="stamp-title">Zimbabwe Heritage Stamp</h3>
+        <p>This stamp design celebrates Zimbabwe through its country name, portrait, and green perforated frame. The one dollar value and McLloyd name label make the piece read as a personal commemorative stamp.</p>
+        <p><strong>Design elements:</strong> line, shape, color, and texture.</p>
+        <p><strong>Design principles:</strong> hierarchy gives the country name and portrait priority; contrast keeps the white lettering clear against the dark center; repetition in the perforations creates rhythm and unity; the centered frame balances the composition.</p>
+        <p><strong>Color scheme:</strong> green, white, and charcoal create a simple high-contrast palette connected to the stamp’s Zimbabwean theme.</p>
+      </div>
+    </section>
+
+    <section class="sticker-project" aria-labelledby="sticker-title">
+      <figure class="featured-art">
+        <img src="images/personal-brand-sticker.svg" alt="Text-free personal brand sticker: a bold teal dotted letter D in a cream and pale teal badge with gold accents" width="1024" height="1024" loading="lazy">
+        <figcaption>Personal brand sticker · SVG artwork</figcaption>
+      </figure>
+      <div class="copy">
+        <h2>Personal brand design</h2>
+        <h3 id="sticker-title">A distinctive D</h3>
+        <p>A text-free sticker refined from a hand-drawn letter D sketch. Repeated dots, a clear silhouette, and the portfolio’s teal, cream, and gold colors make it easy to use across different contexts.</p>
+        <a class="download" href="images/personal-brand-sticker.svg" download>Download the sticker</a>
+      </div>
+    </section>
+    <section class="designer" aria-labelledby="designer-title">
+    <img src="images/dadirai-professional.jpeg" alt="Professional portrait of Dadirai Pise" width="144" height="144" loading="lazy">
+    <div><h2 id="designer-title">About the designer</h2><p>Dadirai Pise is a Communication Science student at Ensign College, interested in clear communication and thoughtful visual storytelling.</p></div>
+  </section>
+  </main>
+  <footer>© 2026 Dadirai Pise · Communication Science Portfolio</footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
